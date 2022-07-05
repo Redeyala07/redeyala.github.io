@@ -1,0 +1,66 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+.titulo{
+    font-size: 0.5em;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+.logo{
+    background-color: #333333;
+    height: 70px;
+    color: white;
+    font-size: 3em;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.menu1{
+    font-size: 0.3em;
+    color: black;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    position:absolute;
+}
+.fondo{
+    height: 700px;
+    width: 100%;
+    background-image:url(/img/buenaonda.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+.abajo{
+    background-color: #333333;
+}
+a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+}
+a:hover{
+    transform: scale(1.1);
+    color:red;
+
+}
+h1{
+    color:white;
+    text-align: center;
+    font: 3em;
+}
+.p3{
+    color:crimson;
+}
+.divin{
+    color:white;
+    text-align: center;
+    font-size: 1.3em;
+}

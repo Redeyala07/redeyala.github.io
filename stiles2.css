@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #333333;
+}
+.titulo1{
+    background-color: #333333;
+    color: white;
+    font-size: 3em;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    z-index: 1;
+    justify-content: space-between;
+}
+.menu1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+button{
+    font-size: 0.3em;
+    color: black;
+    width: 130px;
+    height: 30px;
+    display: grid;
+    position:relative;
+    justify-content:flex-end;
+}
+.Salvafond{
+    height: 70em;
+    width: 100%;
+    background-image:url(/img/salvar.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.texto1{
+    text-align: center;
+    padding-top: 600px;
+    }
+.acceso{
+    width: 40%;
+    font-size: 1em;
+    flex-direction: column;
+    display: flex;
+}
+.toni{
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+}
+a:hover{
+    transform: scale(1.1);
+    color:red;
+}
+.skatepark{
+    justify-content:space-between;
+    background-color:cyan;
+}
+.pregunta{
+    text-align: center;
+    background-color:purple ;
+}
+.imagen{
+    text-align: center;
+   padding-top: 50px;
+   width: 100%;
+}
+footer{
+    background-color: white;
+    font-size: 1.3em;
+}
+.foo{
+    color: red;
+}
